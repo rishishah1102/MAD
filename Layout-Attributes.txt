@@ -1,0 +1,35 @@
+The all the attributes are the assign the value ="attr_value";
+
+Attributes for the layout:-
+android:id - it uniquely identifies the layout. syntax: android:id=@+id/id_name
+android:hint-  it adds the placeholder to edit text
+android:layout_width
+android:layout_height
+android:layout_marginStart
+android:layout_gravity - it sets the position of the child view
+android:layout_x - it specifies the x coordinate of the layout
+android:layout_y - it specifies the y coordinate of the layout
+android:backgroundTint - it sets the color of the background.
+android:text - It is the value of the text to be displayed.
+
+Linear layout attributes:-
+https://www.geeksforgeeks.org/linearlayout-and-its-important-attributes-with-examples-in-android/
+android:layout_weight - It specifies the weight of a particular view. Here, weight means space.
+android:weightSum - It specifies the total weight of screen. It is the addition of all the android:layout_weight.
+android:orientation - It sets the orientation of the view which is vertical or horizontal.
+
+Relative layout attributes :-
+https://www.geeksforgeeks.org/relative-layout-in-android/
+
+Table layout attributes :-
+android:collapseColumns - This specifies the zero-based index of the columns to collapse.
+android:shrinkColumns - The zero-based index of the columns to shrink.
+android:stretchColumns - The zero-based index of the columns to stretch.
+
+List View attributes :-
+https://www.geeksforgeeks.org/android-listview-in-java-with-example/
+
+Grid View attributes :-
+android:numColumns: This attribute of GridView will be used to decide the number of columns that are to be displayed in Grid.
+android:horizontalSpacing: This attribute is used to define the spacing between two columns of GridView.
+android:verticalSpacing: This attribute is used to specify the spacing between two rows of GridView.

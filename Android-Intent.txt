@@ -1,0 +1,26 @@
+In Android, it is quite usual for users to witness a jump from one application to another as a part of the whole process.
+
+For example, searching for a location on the browser and witnessing a direct jump into Google Maps or receiving payment links in Messages Application (SMS) and on clicking jumping to PayPal or GPay (Google Pay), etc.
+
+This process of taking users from one application to another is achieved by passing the Intent to the system. 
+
+Intents are the messages or objects used for navigating among various activities within the same application as well as in another application.
+
+To start an activity we use startActivity(intent).
+
+To start a service we use startService(intent).
+
+To send a broadcast we use sendBroadcast(intent).
+
+Below are some applications of Intents:
+1-Sending the User to Another App Activity.
+2-Sending the user to another activity in same app only.
+3-Allowing Other Apps to Start Your Activity.
+
+There are two types of intents:
+1-Implicit Intent
+2-Explicit Intent
+
+Implicit Intent: In Implicit intent the user is jumped to another application activity. It declares general action to perform, which allows a component from another app to handle. When user makes an implicit call then intent filter chooses the best app for the current activity call and jumps to that application. eg
+
+Explicit Intent: In Explicit intent the user is jumped to another activity in same application. It declares the names of the specific component so that the application will jump to that particular activity. In explicit intent we can pass data to other activity. Here there is no need of intent filter to jump to another activity. eg

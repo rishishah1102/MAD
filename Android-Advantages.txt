@@ -1,0 +1,13 @@
+1- It supports various graphics like 2D, 3D.
+2- It supports multiple android development languages
+3- It has java support which helps the developer to build great mobile applications.
+4- It supports multiple audio video format like mp4, mp3 etc.
+5- It is open source means anyone can build mobile applications.
+6- It has a very great notification system.
+7- It has enrich video calling feature.
+8- It is secure and simple to use.
+
+Disadvantages :-
+1- Slow response - Compared to IOS, when we open the same app in android then we get the slow response.
+2- Heat - The android manages process very efficiently so the processor gets heat up rapidly.
+3- Advertisement - When we open a app several advertisement encounters.

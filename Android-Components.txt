@@ -1,0 +1,12 @@
+The android components are the building blocks of the android application.
+
+These components are interconnected with android manifest file (AndroidManifest.xml) that describes each component of the application and how they interact.
+
+There are four components of the android application :-
+1- Activities: An activity is a collection of screen or it is just a simple UI. It handles the user interaction to the smart phone screen.
+
+2- Services: This component handles the background process associated with the application.
+
+3- Broadcast Receivers: This component handles the communication between Android OS and applications.
+
+4- Content Providers: This component provides the interface for accessing and manipulating the data stored in user's device or remote servers.

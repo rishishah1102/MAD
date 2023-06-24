@@ -1,0 +1,16 @@
+The android framework provides the classes and libraries which is used to create the android application. 
+
+It provides an abstraction for hardware access and also helps in managing the user interface with application resources.
+
+It also handles the tasks such as managing the device's software and hardware resources, handling user interactions and providing access to system level services such as location, connectivity etc.
+
+Some of the key components of the Android framework include:
+1-Activity Manager: This component is responsible for managing the lifecycle of Android activities, which are the building blocks of user interfaces in Android apps.
+2-Content Providers: These components provide a interface for accessing and manipulating data stored on the device or on remote servers.
+3-Resource Manager: This component manages the app's resources, such as images, layouts, and strings.
+4-Notification Manager: This component provides a way for apps to display notifications to the user, such as when a new message is received or a reminder is due.
+5-View System: The multiple set of views can be used to create user interface.
+
+In addition to this core components, the framework also includes the range of libraries and API's such as 3D graphics, multimedia playback etc. that allow developers to build great apps.
+
+Hence, this way the android frameworks helps the developers to build innovative and engaging apps for android devices.

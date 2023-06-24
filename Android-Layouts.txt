@@ -1,0 +1,16 @@
+In android, the layouts are the type of the XML file that defines the visual structure of the UI.
+
+It denotes how UI components such as buttons, text view, images etc. should be arranged on the screen.
+
+The layouts are used to create the user interface for the android application.
+
+It defines the position and sizes of the various UI components and how they are related to each other.
+
+There are different types of layouts:-
+1- Linear layout: It arranges the UI elements in a single row or column.
+2- Relative layout: It positions the UI elements relative to each other or parent layout.
+3- Table layout: It arranges the UI elements in rows and columns.
+4- Absolute layout: It specifies the exact position of the UI elements.
+5- Frame layout: It allows the developer to place a single child view within a container at a specific location.
+6- List View: It is the view that displays the list of scrollable items.
+7- Grid View: It is the view that displays the items in a two dimensional scrollable grid.

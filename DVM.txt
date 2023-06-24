@@ -1,0 +1,17 @@
+The DVM stands for Dalvik Virtual Machine.
+
+The DVM was written by Dan BornStein.
+
+The DVM is a virtual machine which is used for executing android applications on mobile devices.
+
+The DVM is used rather than jvm because the dvm consumes less memory and is very fast i.e efficient
+
+The DVM optimizes the virtual machine for memory, battery life and performance.
+
+The Dex compiler converts the .class files into the .dex file that run on the Dalvik VM. 
+
+Multiple .class files are converted into single .dex file.
+
+Diagram -
+.java files -> java compiler(javac) -> .class files -> Dex compiler(dx) -> .dex file -> android assets packaging tool (aapt) -> .apk file
+the files would be in square box and the compiler will be oval shaped box.

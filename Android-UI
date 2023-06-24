@@ -1,0 +1,7 @@
+1- Text View: It is used to display the text to the user. It supports multiple line display and auto wrapping. It is in string format.
+2- EditText: Here the user can add the multiple line text in a string format. It also supports the auto wrapping.
+3- Radio Button: The radio helps the user to select any one option from a given displayed option.
+4- Button: It is used to perform some sort of action such as submit data in form, etc.
+5- CheckBox: It is available in two states- checked or unchecked. The user can use check-box to pick multiple items.
+6- ToggleButton: It helps the user to switch from one view to another view.
+7- Spinner: It is a quicker way to select one option from a given list of options.

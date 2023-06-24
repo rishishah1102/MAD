@@ -1,0 +1,8 @@
+There are six states of activity lifecycle :-
+1- onCreate(): This state is executed when activity is launched. This state is automatically called when a user open an application.
+2- onStart(): As the activity exits the onCreate state, the onStart state is executed. The activity is visible to user.
+3- onResume(): The onResume state is invoked immediately once the onstart state is called. Here user make interaction with the application. Also the application is in foreground state unless it is open.
+4- onPause(): This state is called when the user switches to any other activity. At this stage the previous activity is running in the background. If the app with higher priority comes than it might happen that the previous process may get killed.
+5- onStop(): This process is called after the onPause state has occured. If a user presses the home button than that activity process gets stopped. Here also the activity process is still running on the background.
+6- onRestart(): This state is called after the onStop state and when the user reopens the application. As in the above state the background process was still running so this activity process gets restarted.
+7- onDestroy(): In this state the activity process is destroyed and also there is no process running on the background.

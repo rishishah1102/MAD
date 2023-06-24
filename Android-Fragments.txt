@@ -1,0 +1,30 @@
+The fragments are the sub-activity in android application which is light-weight as compared to activiy.
+
+The fragments are used to build the dynamic UI's.
+ 
+The greatest advantage of fragments is they just simplify the task of making UI for multiple screens.
+
+An activity can have many number of fragments.
+
+Multiple fragments can be combined to make a single activity.
+
+Also the fragments can be reused in multiple activities.
+
+There is also fragment life cycle similar to activity life cycle.
+
+The fragment lifecycle depends entirely on activity lifecycle.
+
+If the activity lifecycle is paused than the fragment lifecycle is also paused or if the activity lifecycle is destroyed than fragment lifecycle is also destroyed
+
+If activity lifecycle is running then we can add or delete the fragment. 
+
+There is a fragment stack which keeps the track of all the fragments.
+
+ ___________________
+|                   |
+|   _____________   |
+|  |             |  |
+|  |  fragment   |  |
+|  |_____________|  |
+|  Activitiy        |
+|___________________|

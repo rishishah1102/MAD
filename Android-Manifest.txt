@@ -1,0 +1,17 @@
+AndroidManifest.xml is a crucial file in an Android application that describes essential information about the application. 
+
+It is located in the root directory of the application package and is mandatory for all Android applications.
+
+This file contains information such as the application package name, version, permissions, activities, services, broadcast receivers and content providers.
+
+The package name should be unique for each application.
+
+The version specifies the version number of the application.
+
+Permissions are used to specify what type of access the application needs to various device resources, such as camera, location, and storage.
+
+An activity is a collection of screen while services handles the background process of the application.
+
+Broadcast receivers handles the communication between Android OS and applications and content providers provides to access and manipulate the data.
+
+Thus, android manifest file is important for Android OS to properly install, launch, and manage the application.

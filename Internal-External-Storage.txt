@@ -1,0 +1,55 @@
+The android data can be saved in internal storage(ROM), external storage(SD Card), Shared Preferences or SQLite Database.
+
+1- Internal storage:
+    - When an application is installed in the mobile devices, then the android will provide some kind of private internal storage to store the application data privately.
+    - This data cannot be accessed by the another application.
+    - When user uninstall the application all its data gets deleted.
+    - All the internal data files are stored in /data/data/<packageName> folder in mobile devices.
+    - There are two folders under the package name folder and they are file folder and cache folder.
+    - The file folder is used to save general files and getFilesDir() method returns this folder.
+    - The cache folder is used to save cached files and getCacheDir() method returns this folder.
+    - The cached files size should not be greater than 1MB.
+    - If the internal storage is running out of storage than the cached files would be deleted inorder to make the internal storage space bigger.
+
+2- External storage:
+    - Many of the mobile devices should have less internal storage so there is a need of external storage.
+    - There are two types of external storage and they are primary and secondary external storage.
+    - In primary storage the data is stored by plugging USB and using it as drive in computer.
+    - In secondary storage the data is stored in the removable SD Card.
+    - There is no security in the external storage.
+    - Inorder to store the data in the SD we need to setup the permission in androidManifest.xml.
+    - getExternalStorageState is the method which tells that whether the external storage is present or not.
+    - getExternalFilesDir returns the folder in which the files are saved in external storage.
+
+3- Shared Preferences:
+    - The shared preference allow you to read and write the small amounts of primitive key-value pair data to the file on the device storage.
+    - It is like localStorage of web development.
+    - The shared preference class provides the api's to read, write and manage the data in the shared preference file.
+    - This file would not be accessed by the another application.
+    - The shared preference file is accessible to all the components of the application.
+    - It is managed by the android framework.
+    - The data in this file persists even after the session is over or app is killed, restarted or mobile is rebooted.
+    - code for storing data in shared preference files is :
+        SharedPreferences sp = getSharedPreferences("mySharedPref", MODE_PRIVATE);
+        sp.Editor myEdit = sp.edit();
+        myEdit.putString("name", its value);
+        myEdit.putInt("age", its value);
+        myEdit.commit();
+    - code for getting value :
+        SharedPreferences sp = getSharedPreferences("mySharedPref", MODE_APPEND);
+        sp.getString("name", "");
+        sp.getInt("age", 0);
+        // Here initially the name and age is not defined so we pass second parameter that if it is not defined than their value is null and 0.
+
+4- SQLite: 
+    - The SQLite is a library which is used for data management purpose.
+    - It is also known as relational database management system as it stores the relational data into the database.
+    - The lite in SQLite denotes that it is light weight structured query language.
+    - It is developed by ANSI-C.
+    - It is best suitable for data storage if the data is structured.
+    - Unlike all other database, there is no need to install and configure the SQLite database.
+    - It requires very little amount of memory (256kb).
+    - It supports the 3 datatypes
+        -> Text (for strings)
+        -> Integer (for integer)
+        -> Real (for long)

@@ -1,0 +1,31 @@
+There are four level in android stack:-
+1- Kernel Layer / OS level stack: 
+    - It is the heart of the android stack.
+    - It is the first layer of the android stack.
+    - It contains essential hardware drivers such as audio, bluetooth, wifi etc.
+    - It performs the functions such as power management, process management and memory management.
+    - It acts as an interface between the hardware and all other layers of the android stack.
+
+2- Native layer:
+    - It consist of two parts native libraries and android runtime.
+    (a) Native libraries:
+        - This libraries are written in C/C++ language.
+        - The native libraries is consist of libraries such as SQLite, webkit, SSL etc.
+        - The SQLite is used for data management purpose.
+        - The webkit is used to display web contents.
+        - The SSL is used for the security purpose.
+    
+    (b) Android Runtime:
+        - The android runtime is written in java language.
+        - It provides the core libraries and the DVM.
+        - The DVM is used for executing the android application on mobile devices.
+
+3- Application framework layer: 
+    - It is the third layer of the android stack.
+    - It provides the android framework such as activity manager, content providers, resource manager etc.
+    - It provides an abstraction for hardware access and also helps in managing the UI with application resources.
+
+4- Application Layer: 
+    - It is the topmost layer of this architecture.
+    - It acts as an interface between the android application and user.
+    - It is the layer where the user interacts with the UI.

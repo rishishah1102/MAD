@@ -1,0 +1,13 @@
+AVD stands for Android Virtual Device.
+
+It is a software based emulation on android device that runs on the computer and allows developers to test the android application without the need for a physical device.
+
+The developers can create multiple AVD's with different configuration such as different android versions, screen sizes and hardware specifications.
+
+The developers can also create custom AVD's to test their application on variety of devices.
+
+The avdmanager is a command line tool which allows the developers to create and manage the AVD's using command line.
+
+If the developer is using the Android Studio than the developer do not need to use the avdmanager tool because the developer can create and manage the AVD's from IDE only.
+
+It is an official integrated development environment for android app development.
