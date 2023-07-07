@@ -11,3 +11,10 @@ The avdmanager is a command line tool which allows the developers to create and 
 If the developer is using the Android Studio than the developer do not need to use the avdmanager tool because the developer can create and manage the AVD's from IDE only.
 
 It is an official integrated development environment for android app development.
+
+Steps to create AVDS in android Studio :-
+    -> Open the Device Manager.
+    -> Click Create Device and select hardware.
+    -> Select a hardware profile, then click Next.
+    -> Select the system image for a particular API level, and then click Next.
+    -> Change the AVD properties as needed, and then click Finish.
